@@ -52,7 +52,7 @@ function App() {
     if (numOfChecked === numOfSteps) {
       setIteration(iteration + 1);
     }
-  }, [numOfChecked, numOfSteps, iteration]);
+  }, [numOfChecked, numOfSteps]);
 
   const handlePrevoius = () => {
     currentSteps[numOfChecked - 1].isChecked = false;
