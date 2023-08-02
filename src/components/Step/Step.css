@@ -1,0 +1,31 @@
+.step-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.step-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.wrapper {
+    border-bottom: 1px solid rgb(244, 212, 250);
+}
+
+.link {
+    color: rgb(195, 22, 188);
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(82, 9, 79)
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+}

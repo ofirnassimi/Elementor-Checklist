@@ -1,0 +1,24 @@
+.button {
+    background-color: rgb(240, 171, 252);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button.reset-button {
+    width: 100px;
+    height: 30px;
+}
+
+.button.navigation-button {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.button.decrement, .button.increment {
+    width: 30px;
+    height: 30px;
+    
+}
